@@ -1,0 +1,68 @@
+@font-face {
+    font-family: PunkNova;
+    src: url('../fonts/punknova-regular.otf');
+}
+
+html, body{
+    height:100%;
+}
+
+body {
+    display: grid;
+    grid-template-columns: .45fr 1fr;
+    grid-template-rows: repeat(1fr);
+    margin:0;
+    padding:0;
+}
+
+.logo-area{
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.281), rgba(165, 165, 165, 0.322));
+    background-image: url('../images/skatin.jpg');
+    background-size: 35%;
+    background-position: -5% 50%;
+    background-attachment: fixed;
+    height:100%;
+    width: 100%;
+    position: relative;
+    border-color: rgba(0, 0, 0, 0.356);
+    border-style: solid;
+    box-sizing: border-box;
+}
+
+.modal {
+    background-color: rgba(0, 0, 0, 0.616);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 25%;
+}
+
+.modal>h1{
+    color:white;
+    font-size: 5rem;
+    text-shadow: 2px 1px 2px black;
+    font-family: "PunkNova", sans-serif;
+    letter-spacing: 1px;
+}
+
+.credits {
+    position:absolute;
+    width:100%;
+    text-align: center;
+    bottom:0%;
+    text-decoration: underline;
+    text-decoration-color: azure;
+}
+
+.credits>a:visited, .credits>a{
+    text-decoration: underline;
+    color:azure;
+    text-decoration-color: azure;
+}
+
+.sign-up-area {
+    background-image: linear-gradient(45deg,
+    rgba(48, 19, 18, 0.75),
+    rgba(4, 14, 24, 0.75)), url('../images/asphalt.jpg');
+}
