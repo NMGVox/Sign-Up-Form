@@ -73,14 +73,21 @@ body {
     background-color: rgba(224, 63, 0, 0.774);
     box-shadow: 10px 10px 5px 5px rgba(0, 0, 0, 0.575);
     border-radius: .8rem;
-    /* padding: 1rem; */
+    padding: 1rem;
+}
+
+.form-container>h2{
+    position: relative;
+    left:3%;
+    width:40%;
+    color: azure;
 }
 
 ul {
     list-style: none;
     display: grid;
     grid-template-columns: .5fr 1fr;
-    height: 100%;
+    height: 80%;
 }
 
 label{
@@ -96,7 +103,37 @@ input {
     width: 225px;
     border-radius: .4rem;
     padding: 2px 4px;
-    border-color: rgb(163, 47, 1);
+    border-color: rgb(97, 27, 0);
+    border-style: solid;
+    outline: none;
+}
+
+input:focus {
+    outline-style: ridge;
+    outline-width: 1px;
+    outline-color: rgb(58, 9, 0);
+}
+
+input + span {
+    position: relative;
+}
+
+input:invalid + span:before {
+    content: "❌";
+    color:rgb(252, 126, 126);
+    position: absolute;
+    margin: 0;
+    font-size: 1.5rem;
+    left: 2px;
+}
+
+input:valid + span:before {
+    content: "✓";
+    color:rgb(185, 248, 156);
+    position: absolute;
+    margin: 0;
+    font-size: 1.5rem;
+    left: 2px;
 }
 
 form{
@@ -105,7 +142,7 @@ form{
     padding:0;
     height:40%;
     position: relative;
-    top: 25%;
+    top: 30%;
 }
 
 button {
