@@ -66,3 +66,7 @@ body {
     rgba(48, 19, 18, 0.75),
     rgba(4, 14, 24, 0.75)), url('../images/asphalt.jpg');
 }
+
+li {
+    display: block;
+}
