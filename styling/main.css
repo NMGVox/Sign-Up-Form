@@ -4,7 +4,7 @@
 }
 
 :root{
-    --container-bg-color: #8B2D2D;
+    --container-bg-color: #772727;
     --text-base-color: #f4ebeb;
 }
 
@@ -46,7 +46,7 @@ body {
 }
 
 .modal>h1{
-    background: -webkit-linear-gradient(0deg, var(--container-bg-color) 50%, #672167);
+    background: -webkit-linear-gradient(0deg, #A72626 30%, #672167);
     -webkit-background-clip: text;
     -moz-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -88,7 +88,7 @@ body {
 }
 
 .intro-text{
-    background: -webkit-linear-gradient(var(--text-base-color), #a05379);
+    background: -webkit-linear-gradient(var(--text-base-color), #dabccb);
     -webkit-background-clip: text;
     -moz-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -150,6 +150,10 @@ input + span {
 input:required + span:after{
     content: "Required!";
     background-color: #e4cece;
+    border-color: #3f1515;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 6px;
     position: absolute;
     top: -1.8rem;
     left: -4rem;
@@ -160,7 +164,7 @@ input:required + span:after{
 
 input:invalid + span:before {
     content: "❌";
-    color:rgb(252, 126, 126);
+    color:rgb(37, 0, 0);
     position: absolute;
     margin: 0;
     font-size: 1.5rem;
