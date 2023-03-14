@@ -10,6 +10,7 @@
 
 html, body{
     height:100%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 body {
@@ -99,6 +100,7 @@ body {
 
 
 .form-container{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     height:100%;
     background: linear-gradient(to right, var(--container-bg-color) 80%, rgba(224, 63, 0, 0.014));
     box-shadow: 10px 10px 5px 5px rgba(0, 0, 0, 0.575);
@@ -120,7 +122,6 @@ ul {
 }
 
 label{
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 1.2rem;
     font-weight: lighter;
     color: var(--text-base-color);
@@ -210,6 +211,14 @@ button {
 
 button:hover{
     cursor: pointer;
+}
+
+.pass_warning{
+    position: absolute;
+    color: var(--text-base-color);
+    left: 20%;
+    bottom: -10%;
+    visibility: hidden;
 }
 
 .acc-ready{
