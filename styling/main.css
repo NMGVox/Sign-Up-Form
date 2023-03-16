@@ -88,6 +88,7 @@ body {
     bottom: 0%;
     text-decoration: underline;
     text-decoration-color: azure;
+    margin-bottom: 2%;
 }
 
 .credits>a:visited, .credits>a{
@@ -135,6 +136,7 @@ body {
     left:3%;
     width:40%;
     color: var(--text-base-color);
+    margin-bottom: 1rem;
 }
 
 ul {
@@ -239,8 +241,7 @@ button:hover{
 .pass_warning{
     position: absolute;
     color: var(--text-base-color);
-    left: 20%;
-    bottom: -10%;
+    left: 15%;
     visibility: hidden;
 }
 
